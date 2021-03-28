@@ -63,12 +63,14 @@ class FormController extends Controller
             echo $var_departure . '-'. $var_arrival;
             if ($var_departure == "Catania" && $var_arrival =="Londra") {
                 echo ' scalo '. ' : '. '' . '<option value="Berlino">Berlino</option>';
+                echo 'prezzo del volo è '. $price .'<br>';
             } elseif ($var_departure == "Catania" && $var_arrival =="Milano") {
                 echo '<br>';
                 echo ' scalo '. ' : '. '' . '<option value="Londra">Londra</option>';
                 echo 'prezzo del volo è '. $price .'<br>';
             } elseif($var_departure == "Catania" && $var_arrival =="Berlino"){
                 echo ' scalo '. ' : '. '' . '<option value="Londra">Londra</option>';
+                echo 'prezzo del volo è '. $price .'<br>';
             }
         }
     }
