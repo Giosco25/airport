@@ -71,6 +71,42 @@ class FormController extends Controller
             } elseif($var_departure == "Catania" && $var_arrival =="Berlino"){
                 echo ' scalo '. ' : '. '' . '<option value="Londra">Londra</option>';
                 echo 'prezzo del volo è '. $price .'<br>';
+            }elseif ($var_departure == "Londra" && $var_arrival =="Catania") {
+                echo '<br>';
+                echo ' scalo '. ' : '. '' . '<option value="Milano">Milano</option>';
+                echo 'prezzo del volo è '. $price .'<br>';
+            } elseif ($var_departure == "Londra" && $var_arrival =="Berlino") {
+                echo '<br>';
+                echo ' scalo '. ' : '. '' . '<option value="Milano">Milano</option>';
+                echo 'prezzo del volo è '. $price .'<br>';
+            }elseif ($var_departure == "Londra" && $var_arrival =="Milano") {
+                echo '<br>';
+                echo ' scalo '. ' : '. '' . '<option value="Berlino">Berlino</option>';
+                echo 'prezzo del volo è '. $price .'<br>';
+            }elseif ($var_departure == "Berlino" && $var_arrival =="Catania") {
+                echo '<br>';
+                echo ' scalo '. ' : '. '' . '<option value="Milano">Milano</option>';
+                echo 'prezzo del volo è '. $price .'<br>';
+            }elseif ($var_departure == "Berlino" && $var_arrival =="Londra") {
+                echo '<br>';
+                echo ' scalo '. ' : '. '' . '<option value="Milano">Milano</option>';
+                echo 'prezzo del volo è '. $price .'<br>';
+            }elseif ($var_departure == "Berlino" && $var_arrival =="Milano") {
+                echo '<br>';
+                echo ' scalo '. ' : '. '' . '<option value="Londra">Londra</option>';
+                echo 'prezzo del volo è '. $price .'<br>';
+            }elseif ($var_departure == "Milano" && $var_arrival =="Catania") {
+                echo '<br>';
+                echo ' scalo '. ' : '. '' . '<option value="Londra">Londra</option>';
+                echo 'prezzo del volo è '. $price .'<br>';
+            }elseif ($var_departure == "Milano" && $var_arrival =="Londra") {
+                echo '<br>';
+                echo ' scalo '. ' : '. '' . '<option value="Berlino">Berlino</option>';
+                echo 'prezzo del volo è '. $price .'<br>';
+            }elseif ($var_departure == "Milano" && $var_arrival =="Berlino") {
+                echo '<br>';
+                echo ' scalo '. ' : '. '' . '<option value="Londra">Londra</option>';
+                echo 'prezzo del volo è '. $price .'<br>';
             }
         }
     }
